@@ -8,6 +8,10 @@
     font-family: mtfont;
     src: url('./font/Causten-Light.otf');
 }
+@font-face {
+    font-family: coreSancC;
+    src: url('./font/sanc_C/Fontspring-coresansar25.otf');
+}
 
  .navbar {
      padding: 10px;
@@ -157,6 +161,55 @@
   }
   .button1 {padding: 16px 72px;}
 
+
+
+  /* deals */
+  #deals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 100px;
+    color:rgba(255, 255, 255, 1);
+    }
+
+
+  .deals_1{
+    position: relative;
+  }
+  .deals_1_text{
+    position: absolute;
+     top: 50%;
+    left: 30px;
+     transform: translate(10%, -50%);
+     /*  */
+     font-family: coreSancC;
+
+ 
+   }
+  .deals_2{
+    position: relative;
+  }
+  .deals_2_text{
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+     transform: translate(10%, -50%);
+     line-height: 30.07px;
+
+  }
+  .deals_tag{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+font-size: 18px;
+ font-style: normal;
+font-weight: 800;
+line-height: 30.067px;
+letter-spacing: 0.251px;
+  }
+
+
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -169,5 +222,9 @@
 
     .search-field {
         margin-top: 10px;
+    }
+    #deals{
+        flex-wrap: wrap;
+
     }
 }
