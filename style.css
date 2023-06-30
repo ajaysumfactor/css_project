@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mtfont;
+    src: url('./font/Causten-Light.otf');
+}
+
+/* Style the navigation bar */
+.navbar {
+    /* background-color: #f8f8f8; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 102px;
+}
+
+/* Style the logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the navigation links */
+.nav-links {
+    font-family: mtfont;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(128, 125, 126, 1);
+    line-height: 26.4px;
+}
+
+/* Style the search field */
+.search-field {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(246, 246, 246, 1);
+    ;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.search-field input[type="text"] {
+    background: rgba(246, 246, 246, 1);
+    ;
+    font-family: mtfont;
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.search-field img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Style the icons */
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+    background: rgba(246, 246, 246, 1);
+}
+
+#banner {
+    width: 100%;
+    height: 712px;
+    position: relative;
+}
+
+#banner>img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 193px;
+    /* border: 1px solid red; */
+    transform: translate(10%, -50%);
+    color: white;
+
+
+}
+
+.banner_heading {
+    font-family: Core Sans C;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 94px;
+    letter-spacing: 0.31476014852523804px;
+    text-align: left;
+
+}
+
+.banner_header_tag {
+    font-family: Core Sans C;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.15738007426261902px;
+    text-align: left;
+
+}
+
+.banner_sub_heading {
+    font-family: Core Sans C;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0.31476014852523804px;
+    text-align: left;
+
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .search-field {
+        margin-top: 10px;
+    }
+}
