@@ -207,7 +207,31 @@ font-weight: 800;
 line-height: 30.067px;
 letter-spacing: 0.251px;
   }
+#new_arrival{
+    margin: 0 100px;
+}
 
+  .frame{
+    position: relative;
+  }
+.frame_item{
+  
+    display: inline-flex;
+align-items: flex-start;
+gap: 38.58px;
+   
+}
+.frame_item>img{
+    width: 262.815px;
+height: 262.815px;
+ }
+.left-icon_new_arrival {
+    left:0;
+  }
+  
+  .right-icon_new_arrival {
+    right: 0;
+  }
 
 
 @media (max-width: 768px) {
