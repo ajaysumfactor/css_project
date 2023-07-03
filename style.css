@@ -295,6 +295,7 @@ letter-spacing: 0.0125rem;
    }
 .big-saving-zone{
     margin: auto;
+    margin-top: 100px;
     display: flex;
     max-width: 77.41163rem;
 
@@ -328,6 +329,8 @@ flex-shrink: 0;
     border:1px solid red;
      display: flex;
      margin:auto;
+     margin-top: 100px;
+
      max-width: 77.41163rem;
     height: 40.0035rem;
     justify-content: center;
@@ -388,6 +391,8 @@ justify-content: center;
  gap: 4.375rem;
  border: 1px solid red;
  margin: auto;
+ margin-top: 100px;
+
  max-width: 77.4375rem;
  
 
@@ -449,6 +454,8 @@ justify-content: center;
  gap: 4.375rem;
  border: 1px solid red;
  margin: auto;
+ margin-top: 100px;
+
  max-width: 77.4375rem;
 }
 #limeLight{
@@ -458,6 +465,8 @@ justify-content: center;
     gap: 4.375rem;
     border: 1px solid red;
     margin: auto;
+    margin-top: 100px;
+
     max-width: 77.4375rem;
 }
 .price{
@@ -474,6 +483,7 @@ height: 22.32338rem;
 border: 1.069px solid var(--dark-grey-fashion, #323232);
 background: #3C4242;
 margin: auto;
+margin-top: 100px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -530,6 +540,8 @@ align-items: flex-start;
 max-width: 77.4375rem;
 border: 1px solid red;
 margin: auto;
+margin-top: 100px;
+
 gap: 4.375rem;
 }
 .feedback-card{
@@ -602,6 +614,8 @@ letter-spacing: 0.0175rem;
     border: 3px solid red;
     position: relative;
     padding: 20px;
+    margin-top: 100px;
+
   }
   
   .frame-12 {
