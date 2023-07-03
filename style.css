@@ -451,10 +451,146 @@ justify-content: center;
  margin: auto;
  max-width: 77.4375rem;
 }
-
-
-
-
+#limeLight{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    gap: 4.375rem;
+    border: 1px solid red;
+    margin: auto;
+    max-width: 77.4375rem;
+}
+.price{
+width: 5.14406rem;
+height: 2.28625rem;
+border-radius: 6px;
+background-color: rgba(246, 246, 246, 1);
+text-align: center;
+}
+.top_brand{
+    max-width: 77.0625rem;
+height: 22.32338rem;
+ border-radius: 0.75rem;
+border: 1.069px solid var(--dark-grey-fashion, #323232);
+background: #3C4242;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+ 
+ }
+.brand{
+    width: 61.62325rem;
+height: 5.34694rem;
+ display: flex;
+ justify-content: space-between;
+ 
+ border: 1px solid red;
+}
+.brand_logo{
+    background-color: white;
+    width: 11.09488rem;
+height: 5.34694rem;
+border-radius: 7px;
+position: relative;
+ }
+.brand_logo>img{
+    width: 7.01781rem;
+height: 3.54231rem;
+position: absolute;
+top: 1rem;
+left: 2rem;
+ 
+ }
+.top_brand_name{
+    color: #FFF;
+text-align: center;
+font-size: 3.125rem;
+font-family: Core Sans C;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.top_brand_offer{
+    color: #FFF;
+text-align: center;
+font-size: 1.375rem;
+font-family: Causten;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#feedback{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+max-width: 77.4375rem;
+border: 1px solid red;
+margin: auto;
+gap: 4.375rem;
+}
+.feedback-card{
+    display: flex;
+width: 24.80463rem;
+padding: 1.44963rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.25rem;
+flex-shrink: 0;
+ height: 18.25028rem;
+ border-radius: 0.625rem;
+border: 1.8px solid #BEBCBD;
+background: #FFF;
+}
+.user-stars-section{
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+}
+.stars{
+    display: flex;
+    justify-content: center;
+}
+.frame-244{
+    display: flex;
+width: 77.3125rem;
+padding: 0.48319rem 0rem;
+justify-content: center;
+align-items: center;
+gap: 0.24163rem;
+}
+.frame-217{
+    display: flex;
+width: 77.3125rem;
+align-items: flex-start;
+gap: 1.44963rem;
+flex-shrink: 0;
+}
+.feedback-card-user-name{
+    color: #3C4242;
+text-align: center;
+font-size: 1.375rem;
+font-family: Core Sans C;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.0275rem;
+}
+.feedback-card-user-comment{
+    overflow: hidden;
+color: #807D7E;
+text-overflow: ellipsis;
+ font-size: 0.875rem;
+font-family: Causten;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.0175rem;
+}
 
 
 
