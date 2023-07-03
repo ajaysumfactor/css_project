@@ -593,12 +593,159 @@ letter-spacing: 0.0175rem;
 }
 
 
-
-
-
-
-
-
+/* NEED HELP SECTION START */
+ #need-help-section {
+    height: auto;
+    min-height: 45.6875rem;
+    flex-shrink: 0;
+    background: #3C4242;
+    border: 3px solid red;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .frame-12 {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 76.25rem;
+    height: auto;
+    border: 1px solid red;
+     margin: 0 auto;
+    margin-top: 59px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .need-help-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9375rem;
+  }
+  
+  .need-help-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.3125rem;
+    color: #F6F6F6;
+font-size: 1.125rem;
+font-family: Causten;
+font-style: normal;
+font-weight: 500;
+line-height: 216.9%;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .play-store-download {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.32738rem;
+    margin-bottom: 20px;
+  }
+  
+  .frame-123 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    border: 1px solid red;
+    margin: 20px 0;
+  }
+  
+  .popular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;  
+  }
+  
+  .popular p {
+    margin-right: 10px;  
+    color: #F6F6F6;
+font-size: 1.78619rem;
+font-family: Causten;
+font-style: normal;
+font-weight: 700;
+line-height: 200%;
+  }
+  
+  
+  p.download {
+    text-align: right;
+    color: #F6F6F6;
+    font-size: 1.5rem;
+    font-family: Causten;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .store {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .store img {
+    margin-right: 5px;
+  }
+  
+  .store div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .need-help-heading{
+    color: #F6F6F6;
+font-size: 1.78619rem;
+font-family: Causten;
+font-style: normal;
+font-weight: 700;
+line-height: 216.9%;
+  }
+  .copyright{
+    color: #FFF;
+font-size: 1.125rem;
+font-family: Causten;
+font-style: normal;
+font-weight: 700;
+line-height: 200%;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .frame-12 {
+      padding: 10px;
+    }
+  
+    .frame-123 {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    .play-store-download {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    p.download {
+      text-align: center;
+      margin: 10px 0;
+    }
+  }
+  /* NEED HELP SECTION END */
 
 
 
