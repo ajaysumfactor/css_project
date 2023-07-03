@@ -514,6 +514,7 @@ gap: 4.57356rem;
 .card{
     border: 1px solid red;
     width: 16.89781rem;
+    height: 100%;
  }
  .card>img{
     width: 100%;
