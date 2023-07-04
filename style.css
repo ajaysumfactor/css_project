@@ -82,6 +82,19 @@
     height: 712px;
     position: relative;
 }
+.banner-slide{
+    position: absolute;
+    z-index: 11;
+    bottom: 3.06rem;
+     display: flex;
+    justify-content: center;
+     left: 50%;
+    right: 50%;
+ }
+ .banner-slide>img{
+    border-radius: 0.75rem;
+
+ }
 
 #banner>img {
     width: 100%;
