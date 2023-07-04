@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
     font-family: coreSancC;
     src: url('./font/sanc_C/Fontspring-coresansar25.otf');
 }
+/* NAVBAR */
 
  .navbar {
      padding: 10px;
@@ -77,6 +79,9 @@
     background: rgba(246, 246, 246, 1);
 }
 
+/* NAVBAR ENDS */
+
+/* BANNER START */
 #banner {
     width: 100%;
     height: 712px;
@@ -112,8 +117,7 @@
 }
 
 .banner_heading {
-    font-family: Core Sans C;
-    font-size: 78px;
+     font-size: 78px;
     font-weight: 800;
     line-height: 94px;
     letter-spacing: 0.31476014852523804px;
@@ -122,8 +126,7 @@
 }
 
 .banner_header_tag {
-    font-family: Core Sans C;
-    font-size: 32px;
+     font-size: 32px;
     font-weight: 500;
     line-height: 38px;
     letter-spacing: 0.15738007426261902px;
@@ -132,8 +135,7 @@
 }
 
 .banner_sub_heading {
-    font-family: Core Sans C;
-    font-size: 32px;
+     font-size: 32px;
     font-weight: 500;
     line-height: 47px;
     letter-spacing: 0.31476014852523804px;
@@ -173,7 +175,7 @@
     gap: 12px;
   }
   .button1 {padding: 16px 72px;}
-
+/* BANNER END */
 
 
   /* deals */
@@ -220,7 +222,7 @@ line-height: 30.067px;
 letter-spacing: 0.251px;
   }
 
-
+/* DEALS END */
 
 
 
@@ -240,13 +242,12 @@ border: 1px solid red;
 .newArrival_head{
     display: flex;
     align-items: flex-start;
-gap: 1.25rem;
+    gap: 1.25rem;
 }
 .newArrival_head>p{
     color: #3C4242;
 font-size: 2.125rem;
-font-family: Core Sans C;
-font-style: normal;
+ font-style: normal;
 font-weight: 600;
 line-height: 2.09375rem;
 letter-spacing: 0.0425rem;
@@ -307,6 +308,9 @@ line-height: normal;
 letter-spacing: 0.0125rem;
 text-align: left;
    }
+
+   /* NEW ARRIVAL END */
+   /* BIG SAVING START */
 .big-saving-zone{
     margin: auto;
     margin-top: 100px;
@@ -404,8 +408,7 @@ border: 1px solid #FFF;
 .big-saving-1{
     color: #FFF;
 font-size: 1.75rem;
-font-family: Core Sans C;
-font-style: normal;
+ font-style: normal;
 font-weight: 600;
 line-height: 2.40194rem;
 letter-spacing: 0.035rem;
@@ -413,24 +416,22 @@ letter-spacing: 0.035rem;
 .big-saving-2{
     color: #FFF;
 font-size: 0.875rem;
-font-family: Causten;
-font-style: normal;
+ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
 .big-saving-3{
     color: #FFF;
 font-size: 1.125rem;
-font-family: Causten;
-font-style: normal;
+ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
 
+/* BIG SAVING END */
 
 
-
-/*  */
+/* WHAT WE MADE */
 
 #what_made{
     border:1px solid red;
@@ -473,13 +474,12 @@ line-height: normal;
 .what_made_content>h4{
     color: #FFF;
 font-size: 1.25rem;
-font-family: Causten;
-font-style: normal;
+ font-style: normal;
 font-weight: 300;
 line-height: normal;
 letter-spacing: 0.0625rem;
 }
-
+/* WHAT WE MADE END  */
 
 /* MENS CATEGORIES */
 #mens_categories{
@@ -505,8 +505,7 @@ justify-content: center;
 .subcategory_detail{
     color: #2A2F2F;
 font-size: 1.11719rem;
-font-family: Causten;
-font-style: normal;
+ font-style: normal;
 font-weight: 700;
 line-height: 1.74563rem;
 letter-spacing: -0.04469rem;
@@ -514,8 +513,7 @@ letter-spacing: -0.04469rem;
 .further{
     color: #7F7F7F;
 font-size: 0.83794rem;
-font-family: Causten;
-font-style: normal;
+ font-style: normal;
 font-weight: 500;
 line-height: 1.74563rem;
 letter-spacing: -0.0335rem;
@@ -565,6 +563,8 @@ justify-content: center;
 
  max-width: 77.4375rem;
 }
+/* WOMENS CATEGORY CLOTHS END */
+/* LIMELIGHT START */
 #limeLight{
     display: flex;
     flex-direction: column;
@@ -594,6 +594,8 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+/* LIMELIGHT END */
+/* TOP BRAND START */
 .top_brand{
     max-width: 77.0625rem;
 height: 22.32338rem;
@@ -650,6 +652,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+/* TOP_BRAND END */
+/* FEEDBACK SECTION START */
 #feedback{
 display: flex;
 flex-direction: column;
@@ -722,7 +726,7 @@ line-height: normal;
 letter-spacing: 0.0175rem;
 }
 
-
+/* FEEDBACK SECTION END */
 /* NEED HELP SECTION START */
  #need-help-section {
     height: auto;
@@ -764,8 +768,7 @@ letter-spacing: 0.0175rem;
     gap: 0.3125rem;
     color: #F6F6F6;
 font-size: 1.125rem;
-font-family: Causten;
-font-style: normal;
+ font-style: normal;
 font-weight: 500;
 line-height: 216.9%;
 text-align: left;
@@ -806,8 +809,7 @@ text-align: left;
     margin-right: 10px;  
     color: #F6F6F6;
 font-size: 1.78619rem;
-font-family: Causten;
-font-style: normal;
+ font-style: normal;
 font-weight: 700;
 line-height: 200%;
   }
@@ -817,8 +819,7 @@ line-height: 200%;
     text-align: right;
     color: #F6F6F6;
     font-size: 1.5rem;
-    font-family: Causten;
-    font-style: normal;
+     font-style: normal;
     font-weight: 700;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -841,16 +842,14 @@ line-height: 200%;
   .need-help-heading{
     color: #F6F6F6;
 font-size: 1.78619rem;
-font-family: Causten;
-font-style: normal;
+ font-style: normal;
 font-weight: 700;
 line-height: 216.9%;
   }
   .copyright{
     color: #FFF;
 font-size: 1.125rem;
-font-family: Causten;
-font-style: normal;
+ font-style: normal;
 font-weight: 700;
 line-height: 200%;
   }
