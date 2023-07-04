@@ -515,7 +515,15 @@ gap: 4.57356rem;
     border: 1px solid red;
     width: 16.89781rem;
     height: 100%;
+    position: relative;
+
  }
+ .heart-icon{
+    position: absolute;
+    top:5px;
+    right: 5px;
+    z-index: 23;
+   }
  .card>img{
     width: 100%;
     height: auto;
@@ -551,15 +559,26 @@ justify-content: center;
     border: 1px solid red;
     margin: auto;
     margin-top: 100px;
-
     max-width: 77.4375rem;
 }
+
 .price{
 width: 5.14406rem;
 height: 2.28625rem;
 border-radius: 6px;
 background-color: rgba(246, 246, 246, 1);
+ display:flex;
+justify-content: center;
+align-items: center;
+}
+.limelight-price{
+    color: #3C4242;
 text-align: center;
+font-size: 0.875rem;
+font-family: Causten;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 .top_brand{
     max-width: 77.0625rem;
@@ -618,7 +637,7 @@ font-weight: 400;
 line-height: normal;
 }
 #feedback{
-    display: flex;
+display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
