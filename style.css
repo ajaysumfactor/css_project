@@ -250,7 +250,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 4.375rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .newArrival_head {
@@ -278,7 +278,7 @@
 
 .frame {
     position: relative;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     text-align: center;
 }
@@ -289,7 +289,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     padding: 0 2rem;
 
@@ -341,13 +341,13 @@
     justify-content: center;
     align-items: flex-start;
     gap: 4.375rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .frame_image {
     position: relative;
     display: inline-flex;
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
     width: 25rem;
     height: 24.5625rem;
     flex-shrink: 0;
@@ -374,7 +374,7 @@
     line-height: 30.07px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 10rem;
     height: 16.48981rem;
     color: #FFF;
@@ -389,7 +389,7 @@
     line-height: 30.07px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 10rem;
     height: 16.48981rem;
     text-align: left;
@@ -404,7 +404,7 @@
     line-height: 30.07px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 10rem;
     height: 16.48981rem;
     color: #3C4242;
@@ -416,7 +416,7 @@
     width: 1.47638rem;
     height: 1.304rem;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .btn {
@@ -465,7 +465,7 @@
 /* WHAT WE MADE */
 
 #what_made {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     margin: auto;
     margin-top: 100px;
@@ -499,7 +499,7 @@
 
 .what_made_content {
     width: 29.125rem;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     position: absolute;
     top: 50%;
     transform: translate(10%, -50%);
@@ -524,7 +524,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 4.375rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 100px;
 
@@ -566,7 +566,7 @@
 }
 
 .card {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 16.89781rem;
     height: 100%;
     position: relative;
@@ -591,7 +591,7 @@
     justify-content: center;
     align-items: center;
     gap: 3.14213rem;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
 }
 
@@ -603,7 +603,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 4.375rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 100px;
 
@@ -617,7 +617,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 4.375rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 100px;
     max-width: 77.4375rem;
@@ -667,7 +667,7 @@
     display: flex;
     justify-content: space-between;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .brand_logo {
@@ -715,7 +715,7 @@
     justify-content: center;
     align-items: flex-start;
     max-width: 77.4375rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 100px;
 
@@ -795,7 +795,7 @@
     min-height: 45.6875rem;
     flex-shrink: 0;
     background: #3C4242;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     position: relative;
     padding: 20px;
     margin-top: 100px;
@@ -808,7 +808,7 @@
     width: 100%;
     max-width: 76.25rem;
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     margin-top: 59px;
     padding: 20px;
@@ -856,7 +856,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 20px 0;
 }
 
